@@ -1,0 +1,63 @@
+.gradient-background {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(33, 205, 250, 0.65), #1B1D23), url('/assets/fundorazzoo.jpg') no-repeat center center / cover;
+    padding: 20px;
+    box-shadow: 0 20px 40px #1B1D23;
+    height: 100vh;
+}
+
+.logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+apresentacao_section {
+    height: 30vw;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-image: url(/assets/Union.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* .light{
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+} */
+
+.titulo-lorem {
+    font-weight: 400;
+    font-size: 46px;
+}
+
+
+.text {
+    background-color: var(--cor-de-fundo);
+    width: 40%;
+    padding: 5%;
+    position: relative;
+    float: left;
+    text-indent: 30px;
+}
+
+@media (max-width: 48em) {
+    
+.apresentacao_section {
+    padding:0px;}
+    .text {
+        width: 80vw;
+        margin: auto;
+
+    }
+}
