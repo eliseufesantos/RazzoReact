@@ -1,6 +1,7 @@
 import SectionApresentacao from "./SectionApresentacao"
 import SectionCarrossel from "./SectionCarrossel"
-import SectionMapa from "./SectionMapa"
+// import SectionMapa from "./SectionMapa"
+import SectionNextRound from "./SectionNextRound"
 
 function Home() {
     return(
@@ -8,8 +9,9 @@ function Home() {
         <main>
             
             <SectionApresentacao/>
+            <SectionNextRound/>
             <SectionCarrossel/>
-            <SectionMapa/>
+
            
         </main>
     

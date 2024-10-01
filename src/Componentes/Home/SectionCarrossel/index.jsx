@@ -1,5 +1,4 @@
 import "./SectionCarrossel.css"
-import "./SectionCarrossel.js"
 import Azul from "../../../assets/carro-azul.svg"
 import Vermelho from "../../../assets/carro-vermelho.svg"
 import Laranja from "../../../assets/carro-laranja.svg"

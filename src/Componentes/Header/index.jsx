@@ -13,12 +13,12 @@ function Header() {
                     <li>
                         <Link to='/'>Home</Link>
                     </li>
-                    <li>
-                        <a href="#inicio">Início</a>
+                    {/* <li>
+                        <a href="/">Início</a>
                     </li>
                     <li>
                         <a href="#map">Campeonato</a>
-                    </li>
+                    </li> */}
                     <li>
                         <Link to='/form-login'>Login | Cadastro</Link>
                     </li>

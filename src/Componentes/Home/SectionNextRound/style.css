@@ -1,0 +1,131 @@
+
+
+.next_mapa_section img {
+    width: 90vw;
+    border-radius: 2%;
+    height: 100%;
+}
+
+.next_mapa_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: -300px;
+}
+
+.next_mapa_section h4 {
+    font-size: small;
+}
+
+.next_mapa_section h1 {
+    font-size: medium;
+}
+
+.next_mapa_section a{
+    margin-top: -10px;
+}
+
+
+.bnt-acompanhar {
+    appearance: none;
+    background-color: #FFFFFF;
+    border-width: 0;
+    box-sizing: border-box;
+    color: #545454;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: -50px;
+    color: #585e6a;
+
+    padding: 1.5em 2.2em;
+    padding-right: 3em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: geometricprecision;
+    text-transform: uppercase;
+    transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1), background-color 100ms cubic-bezier(.694, 0, 0.335, 1), color 100ms cubic-bezier(.694, 0, 0.335, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    border-radius: 50px;
+}
+
+.bnt-acompanhar:before {
+    animation: opacityFallbackOut .5s step-end forwards;
+    backface-visibility: hidden;
+    background-color: #37373768;
+    color: #000000;
+    clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateZ(0);
+    transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+    width: 100%;
+    border-radius: 50px;
+
+}
+
+.bnt-acompanhar:hover:before {
+    animation: opacityFallbackIn 0s step-start forwards;
+    clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.bnt-acompanhar:after {
+    background-color: #FFFFFF;
+    color: #000000;
+
+}
+
+@media (max-width: 768px) {
+    .box {
+        min-width: 100%;
+        margin: 0 5px;
+    }
+
+    .carousel-container {
+        width: 100%;
+    }
+    .next_mapa_section{
+        margin-top: -150px;
+    }
+    .bnt-acompanhar{
+        padding: 10px;
+        font-size: small;
+    }
+    .bnt-acompanhar {
+        margin-top: -25px;
+        font-size: small;
+    }
+}
+
+
+@media (min-width: 600px) {
+   
+    .next_mapa_section h1 {
+        font-size: xx-large;
+    }
+
+    .next_mapa_section h4 {
+        font-size: medium;
+    }
+
+    .text {
+        width: 60%;
+        font-size: medium;
+    }
+    .title_drivers h1,
+.title_drivers h3 {
+    color: rgba(255, 255, 255, 0.87);
+    font-size: xx-large;
+    padding: 0;
+}
+}
