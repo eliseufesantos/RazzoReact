@@ -8,7 +8,7 @@ function SectionNextRound() {
                 <h1>São Paulo - Brasil</h1>
                 <div id="countdown"></div>
                 <img className="next-mapa" src={SP} alt=""/>
-                    <a href="./pages/mapa.html"> <button className="bnt-acompanhar" role="button">Acompanhar ao vivo</button></a>
+                    <a href="#"> <button className="bnt-acompanhar" role="button">Acompanhar ao vivo</button></a>
             </section>
         </>
     )
